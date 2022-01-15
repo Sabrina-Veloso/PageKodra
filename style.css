@@ -1,0 +1,281 @@
+html,
+body {
+    width: 1366px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/img/Kodra-PSD-Recuperado.jpg");
+    font: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+}
+
+#menuInteiro {
+    background: #5077fb;
+    height: 850px;
+    width: 368px;
+    position: absolute;
+    left: 100px;
+}
+
+#menu {
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+}
+
+#montanha {
+    margin-top: 70px;
+}
+
+#divBusca {
+    margin: 40px;
+    border: solid 1px;
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    height: 32px;
+    width: 260px;
+}
+
+#btnBusca {
+    margin-top: 3px;
+}
+
+#linha {
+    background-color: #6285fb;
+    height: 1px;
+    width: 368px;
+}
+
+#linha2 {
+    margin-top: 20px;
+    background-color: #6285fb;
+    height: 1px;
+    width: 368px;
+}
+
+#paragrafo {
+    margin-left: 40px;
+}
+
+#social {
+    margin: 50px;
+    margin-left: 40px;
+}
+
+#google {
+    margin: 15px;
+}
+
+#facebook {
+    margin: 15px;
+}
+
+#pinterest {
+    margin: 15px;
+}
+
+#twitter {
+    margin: 15px;
+}
+
+#escritorioImg {
+    width: 930px;
+    height: 500px;
+    margin: -800px;
+    position: absolute;
+    margin-left: 370px;
+    z-index: -1;
+}
+
+#menuDoConteudo {
+    background-color: white;
+    width: 930px;
+    height: 60px;
+    margin: -290px;
+    position: absolute;
+    margin-left: 370px;
+}
+
+#conteudo {
+    margin: -100px;
+    margin-left: 5px;
+}
+
+.textoEscritotio {
+    margin: -600px;
+    position: absolute;
+    margin-left: 400px;
+}
+
+h1 {
+    color: #3c586d;
+}
+
+#textoImg1 {
+    color: #92a4b1;
+    margin-top: -10px;
+}
+
+#caixinhaStyle {
+    background-color: #5077fb;
+    font-size: 18px;
+    color: white;
+    height: 20px;
+    width: 74px;
+    margin: -565px;
+    position: absolute;
+    margin-left: 600px;
+}
+
+#style {
+    margin-top: -30px;
+    margin-left: -35px;
+}
+
+#botaoNumero {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #cbd8f7;
+    font-size: 18px;
+    width: 45px;
+    height: 60px;
+    margin-top: 50px;
+}
+
+#setaDireita {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #cbd8f7;
+    font-size: 18px;
+    width: 40px;
+    height: 30px;
+}
+
+#setaEsquerda {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #cbd8f7;
+    font-size: 18px;
+    width: 40px;
+    height: 30px;
+    margin-top: -60px;
+    margin-left: 50px;
+}
+
+#ourWork {
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 25px;
+    margin-top: -45px;
+}
+
+#checkbox-menu {
+    position: absolute;
+    opacity: 0;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+}
+
+label span {
+    position: absolute;
+    display: block;
+    height: 3px;
+    width: 100%;
+    border-radius: 30px;
+    background: #5077fb;
+    transition: 0.25s ease-in-out;
+}
+
+label span:nth-child(1) {
+    top: 0;
+}
+
+label span:nth-child(2) {
+    top: 8px;
+}
+
+label span:nth-child(3) {
+    top: 16px;
+}
+
+label span:nth-child(4) {
+    top: 24px;
+}
+
+#checkbox-menu:checked+label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+#checkbox-menu:checked+label span:nth-child(2) {
+    opacity: 0;
+}
+
+#checkbox-menu:checked+label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+#checkbox-menu:checked+label span:nth-child(4) {
+    opacity: 0;
+}
+
+#conteudosImg {
+    margin-left: -18px;
+}
+
+#clipes {
+    margin: -220px;
+    position: absolute;
+    margin-left: 390px;
+}
+
+#bicicletaFundo {
+    margin: -220px;
+    position: absolute;
+    margin-left: 880px;
+    z-index: -1;
+}
+
+#caixaAzul {
+    margin: -190px;
+    position: absolute;
+    margin-left: 910px;
+    background-color: #5077fb;
+    height: 400px;
+    width: 408px;
+}
+
+#logo {
+    margin: -135px;
+    position: absolute;
+    margin-left: 900px;
+}
